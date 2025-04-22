@@ -1,0 +1,49 @@
+
+#regla {
+    border: solid hsl(9,100%,60%);
+}
+
+#color-red {
+    color: red;
+}
+
+.caja {
+    background-color: #f0f0f0; /*GRIS CLARO*/
+    padding: 20px; /*AGREGA ESPACIO INTERNO*/
+    border: 1px solid #ccc; /*BORDE PARA MAYOR CONTRASTE*/
+
+}
+
+.fondo-imagen {
+background-image: url('/imagenes/shrek1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 120vh;
+width: 60%;
+margin: 0;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.fondo-combinado {
+    background: linear-gradient(45deg, #ff5733, #ffc300); /*DEGRADADO*/
+    color: white; /*texto blanco para contraste*/
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.fondo-sólido-degradado {
+    background: linear-gradient(45deg, #450a47, #9bf2fd); /*DEGRADADO*/
+    color: white; /*texto blanco para contraste*/
+    padding: 20px;
+    text-align: center;
+
+}

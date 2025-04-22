@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #ddd;
+    padding: 20px;
+
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
